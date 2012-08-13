@@ -1,0 +1,18 @@
+First match maker for the Cloud4All project
+
+Generally this is a very small prototype of the whole GPII architecture. This
+includes a device profile creator, a plugin structure which represents the
+implemented solutions and a match maker although the focus lays on the match
+making process.
+
+This prototype is not longer under development, please look at the new MatchMaker
+project under https://github.com/Cloud4AllTUD/MatchMaker.git instead.
+
+
+Installation
+First install:
+python-setuptools python-dev build-essential
+
+Dependences
+psutil: os indipendent process management library
+configobj: module for parsing ini files

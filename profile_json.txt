@@ -1,0 +1,29 @@
+[
+{ "name" : "http://gpii.org/ns/up/preferred-lang",
+"condition" : "",
+"probability" : "1",
+"value" : "en"
+},
+{ "name" : "http://gpii.org/ns/up/volume",
+"condition" : "value('http://gpii.org/ns/time/local-time') >= '09:00:00' && value('http://gpii.org/ns/time/local-time') <= '17:00:00'",
+"probability" : "1",
+"value" : "loud"
+},
+{ "name" : "http://gpii.org/ns/up/volume",
+"condition" : "value('http://gpii.org/ns/time/local-time') > '22:00:00' && value('http://gpii.org/ns/time/local-time') < '09:00:00'",
+"probability" : "1",
+"value" : "medium"
+},
+{ "name" : "http://gpii.org/ns/up/speech-rate",
+"condition" : {
+"language" : "en"
+},
+"probability" : "1",
+"value" : 80
+},
+{ "name" : "http://gpii.org/ns/up/speech-rate",
+"condition" : "",
+"probability" : "1",
+"value" : 100
+}
+]
